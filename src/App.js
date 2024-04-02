@@ -6,7 +6,8 @@ import CanDo from './components/cando.tsx';
 function App() {
   return (
     <div className="App">
-     <Nav />
+      <div className='w-full flex justify-center'>  <Nav /></div>
+   
      <MainContent />
      <CanDo />
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 export default function Icons({Icon}){
     return (
-        <Icon  ></Icon>
+        <Icon className=" text-6xl"  ></Icon>
     )
 
 }

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Nav from "./layouts/nav.tsx"
 import MainContent from './layouts/body.tsx';

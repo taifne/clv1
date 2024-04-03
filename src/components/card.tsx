@@ -13,7 +13,7 @@ export default function Card({ isDarkCard, Title, Content, Icon }) {
     const cardStyles = isDarkCard ? darkStyles : lightStyles;
 
     return (
-        <div style={cardStyles} className="p-x h-96 flex flex-col items-center rounded-xl mb-7">
+        <div style={cardStyles} className="p-x h-117 flex flex-col items-center rounded-xl mb-7">
             <div className="icon justify-items-center p-4 mb-5">
                 <Icons Icon={Icon}></Icons>
             </div>

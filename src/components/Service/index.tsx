@@ -6,17 +6,17 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 import { TbSettingsAutomation } from "react-icons/tb";
 import { MdOnDeviceTraining } from "react-icons/md";
 
-import Card from "./card.tsx";
+import Card from "../Card/index.tsx";
 export default function CanDo() {
 
     return (
-        <div className="items-center flex flex-col p-6">
+        <div className="items-center flex flex-col p-6 ">
             <div className=" text-center flex flex-row h-fit m-5">
                 <p className=" font-semibold lg:text-5xl text-3xl mr-4">What </p>
                 <p className=" text-cyan-300 font-semibold lg:text-5xl text-3xl">we can do</p>
 
             </div>
-            <div className="h-screen flex flex-col ">
+            <div className="h-fit flex flex-col ">
                 <div className="h-fit md:grid md:grid-cols-3 md:gap-5 lg:px-20 mb-10 flex flex-col ">
                     <Card Icon={FaBullseye} Title="Customer’s Requirements Managed By Help Desk Software." isDarkCard={true} Content="Enable to provide quick and easy answers to help seekers. Makes it simple to organize, prioritize." ></Card>
                     <Card Icon={LuMonitorCheck} Title="Deliver On SLAs" isDarkCard={false} Content="Nail your Service Level Agreements, every time. Get the important things done first with prioritized queues." ></Card>

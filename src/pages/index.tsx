@@ -1,14 +1,16 @@
 import React from "react"
-export default function MainContent() {
+import ServiceComponent from"../components/Service/index.tsx";
+export default function HomePage() {
     return (
-        <>
+        <div className="h-fit flex flex-col gap-2 w-full">
             <div className="h-fit  pt-32 md:grid md:grid-cols-2 md:px-0 md:pt-32 gap-6 lg:px-32 lg-pt-32 sm:flex sm:flex-col ">
 
                 <div className="md:grid-span-1 md:h-2/3 h-96  iframe-container sm:w-full px-5 sm:pt-4 mb-2">
                     <iframe
-                        className=" responsive-iframe h-full"
-                        src="https://www.youtube.com/embed/iOF6cnzQeKw"
+                        className=" responsive-iframe h-full w-full"
+                        src="https://www.youtube.com/embed/iOF6cnzQeKw?autoplay=1&mute=1"
                         title="Embedded Content"
+                    
                         allowFullScreen
 
                     />
@@ -26,6 +28,7 @@ export default function MainContent() {
                         to customers in the timely manner.</p>
                 </div>
             </div>
-        </>
+           <ServiceComponent /> 
+        </div>
     )
 }

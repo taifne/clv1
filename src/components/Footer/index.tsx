@@ -9,7 +9,7 @@ function Footer(): ReactElement {
           <FaFacebook className="m-3 text-4xl text-blue-500" />
           <FaYoutube className="m-3 text-4xl text-red-600" />
         </div>
-        <div className="flex md:flex-row flex-col">
+        <div className="flex md:flex-row items-center justify-center flex-col">
           <p className="m-3 uppercase font-semibold">Contact Us</p>
           <p className="m-3 uppercase font-semibold">Join Us</p>
         </div>

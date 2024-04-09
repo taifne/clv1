@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
-import Icons from "./icons.tsx";
-import { colorBackgroundDark, colorBackgroundLight, colorTextDark, colorTextLight } from "../../constant/colors.ts";
+import Icons from "./Icon.tsx";
+import { colorBackgroundDark, colorBackgroundLight, colorTextDark, colorTextLight } from "../../config/colors.ts";
 
 interface CardProps {
   isDarkCard: boolean;

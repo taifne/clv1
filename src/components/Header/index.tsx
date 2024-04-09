@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { FaAngleDown } from "react-icons/fa";
-import Burger from "../BurgerBtn/index.tsx";
-import { breakpoints } from "../../constant/BreakPoints.ts";
+import Burger from "../Button/BurgerBtn/Index.tsx";
+import { breakpoints } from "../../config/BreakPoints.ts";
 
 export default function Nav() {
   const [navHidden, setNavHidden] = useState(false);

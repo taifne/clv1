@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from "./components/Header/index.tsx";
-import HomePage from "./pages/index.tsx";
-import Footer from "./components/Footer/index.tsx";
+import Header from "./components/Header/Index.tsx";
+import HomePage from "./pages/Index.tsx";
+import Footer from "./components/Footer/Index.tsx";
 
 function App(): JSX.Element {
   return (

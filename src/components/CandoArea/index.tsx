@@ -5,7 +5,7 @@ import { LuMonitorCheck } from "react-icons/lu";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { TbSettingsAutomation } from "react-icons/tb";
 import { MdOnDeviceTraining } from "react-icons/md";
-import cardsData from '../../datas/card-data.ts';
+import cardsData from '../../data/card-data.ts';
 
 import Card from "../Card/index.tsx";
 export default function CanDo() {

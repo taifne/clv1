@@ -1,10 +1,10 @@
 import React from "react"
-import ServiceComponent from "../components/Service/index.tsx";
+import ServiceComponent from "../components/CandoArea/index.tsx";
 import Iframe from "../components/Iframes/index.tsx";
 export default function HomePage() {
     return (
         <div className="h-fit flex flex-col gap-2 w-full">
-            <div className="h-fit  pt-32 md:grid md:grid-cols-2 md:px-0 md:pt-32 gap-6 lg:px-32 lg-pt-32 sm:flex sm:flex-col ">
+            <div className="h-fit  pt-32 md:grid md:grid-cols-2 md:px-0 md:pt-32 gap-6 lg:px-32 lg-pt-32 sm:flex sm:flex-col">
                 <Iframe
                     src="https://www.youtube.com/embed/iOF6cnzQeKw?autoplay=1&mute=1"
                     className="custom-class"

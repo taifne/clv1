@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import Icons from "./icons.tsx";
-import { colorBackgroundDark, colorBackgroundLight, colorTextDark, colorTextLight } from "../../types/colors.ts";
+import { colorBackgroundDark, colorBackgroundLight, colorTextDark, colorTextLight } from "../../constant/colors.ts";
 
 interface CardProps {
   isDarkCard: boolean;
@@ -23,7 +23,7 @@ export default function Card({ isDarkCard, Title, Content, Icon }: CardProps): R
   const cardStyles: React.CSSProperties = isDarkCard ? darkStyles : lightStyles;
 
   return (
-    <div style={cardStyles} className=" h-117 flex flex-col items-center rounded-xl mb-7">
+    <div style={cardStyles} className="h-117 flex flex-col items-center rounded-xl mb-7">
       <div className="icon justify-items-center p-4 mb-5">
         <Icons Icon={Icon}></Icons>
       </div>

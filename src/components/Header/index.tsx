@@ -1,8 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { FaAngleDown } from "react-icons/fa";
-import { GiHamburgerMenu } from "react-icons/gi";
 import Burger from "../BurgerBtn/index.tsx";
-import { breakpoints } from "../../types/BreakPoints.ts";
+import { breakpoints } from "../../constant/BreakPoints.ts";
 
 export default function Nav() {
   const [navHidden, setNavHidden] = useState(false);
@@ -31,7 +30,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <div ref={navRef} className="md:grid-cols-8 md:grid bg-blue-950  md:h-20  md:items-center md:justify-center fixed md:w-full z-10 flex flex-col-reverse items-start w-full ">
+    <div ref={navRef} className="md:grid-cols-8 md:grid bg-blue-950  md:h-20  md:items-center md:justify-center fixed md:w-full z-10 flex flex-col-reverse items-start w-full">
       <div className="nav-logo md:col-span-3 text-white md:h-full my-1 order-last flex flex-row justify-between w-full p-3 md:order-1">
         <a className=" hover:cursor-pointer md:flex md:flex-col md:items-center md:justify-center md:w-5/6 ">
           <p className="text-3xl font-semibold">CyberLogitec</p>
@@ -86,7 +85,7 @@ export default function Nav() {
             <p className="text-white font-semibold text-base md:text-sm lg:text-base xl:text-lg cursor-pointer">Careers </p>
             <FaAngleDown className="text-base font-thin text-white ml-2"></FaAngleDown>
           </div>
-          <div className="dropdown-content text-sm transition-all easy-in duration-150 h-0 group-hover:h-fit overflow-hidden text-white absolute bg-blue-950 group-hover:py-2 px-4 group-hover:border group-hover:border-x-zinc-50  ml-0 ">
+          <div className="dropdown-content text-sm transition-all easy-in duration-150 h-0 group-hover:h-fit overflow-hidden text-white absolute bg-blue-950 group-hover:py-2 px-4 group-hover:border group-hover:border-x-zinc-50  ml-0">
             <div className="w-96 md:w-48  px-1 py-2 flex flex-col items-start">
               <p className="underline  font-semibold hover:text-blue-400 cursor-pointer">
                 Overview
@@ -101,7 +100,7 @@ export default function Nav() {
           </div>
         </div>
 
-        <div className="dropdown group md:w-1/4 md:order-4 flex items-center ">
+        <div className="dropdown group md:w-1/4 md:order-4 flex items-center">
 
 
           <p className="cursor-pointer text-white font-semibold  hover:text-cyan-400 w-fit rounded-md md:px-2 py-1 text-base md:text-sm lg:text-base xl:text-lg">About Us</p>
@@ -111,7 +110,7 @@ export default function Nav() {
 
       </div>
       <div className={navHidden ? "hidden" : "block" + "nav-contact md:col-span-2 md:flex md:items-center md:justify-center my-1 pl-1 md:order-3"}>
-        <button className="cursor-pointer text-base md:text-lg lg:text-base xl:text-lg px-2 py-1 text-blue-900 rounded-md font-semibold hover:bg-cyan-300 md:text-blue-950 md:hover:text-white bg-white ">Contact us</button>
+        <button className="cursor-pointer text-base md:text-lg lg:text-base xl:text-lg px-2 py-1 text-blue-900 rounded-md font-semibold hover:bg-cyan-300 md:text-blue-950 md:hover:text-white bg-white">Contact us</button>
       </div>
     </div>
   );

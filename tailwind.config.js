@@ -7,6 +7,14 @@ module.exports = {
     extend: {
       spacing: {
         '117': '29rem',
+      },
+      colors: {
+        'custom-bg-light': '#F5F5F5',
+        'custom-bg-dark': '#07244F',
+        'custom-text-light': '#ffffff',
+        'custom-text-dark': '#17325A'
+      }, transitionProperty: {
+        'height': 'height'
       }
     },
   },

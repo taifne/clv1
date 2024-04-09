@@ -1,7 +1,9 @@
-import React from "react";
-export default function Icons({Icon}){
-    return (
-        <Icon className=" text-6xl"  ></Icon>
-    )
+import React, { ReactElement } from "react";
 
+interface IconsProps {
+  Icon: React.ElementType;
+}
+
+export default function Icons({ Icon }: IconsProps): ReactElement {
+  return <Icon className="text-6xl"></Icon>;
 }

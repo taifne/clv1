@@ -1,6 +1,6 @@
 import React from "react"
-import ServiceComponent from "../components/CandoArea/Index.tsx";
-import Iframe from "../components/Iframes/Index.tsx";
+import ServiceComponent from "../components/CandoArea/index.tsx";
+import Iframe from "../components/Iframes/index.tsx";
 export default function HomePage() {
     return (
         <div className="h-fit flex flex-col gap-2 w-full">

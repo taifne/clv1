@@ -7,7 +7,7 @@ import { TbSettingsAutomation } from "react-icons/tb";
 import { MdOnDeviceTraining } from "react-icons/md";
 import cardsData from '../../data/card-data.ts';
 
-import Card from "../Card/Index.tsx";
+import Card from "../Card/index.tsx";
 export default function CanDo() {
 
     return (

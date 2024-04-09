@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { FaAngleDown } from "react-icons/fa";
-import Burger from "../Button/BurgerBtn/Index.tsx";
+import Burger from "../Button/BurgerBtn/index.tsx";
 import { breakpoints } from "../../config/BreakPoints.ts";
 
 export default function Nav() {

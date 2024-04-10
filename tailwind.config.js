@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       spacing: {
         '117': '29rem',
+
+        '97':'26rem'
       },
       colors: {
         'custom-bg-light': '#F5F5F5',

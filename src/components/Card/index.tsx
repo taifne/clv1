@@ -23,7 +23,7 @@ export default function Card({ isDarkCard, Title, Content, Icon }: CardProps): R
   const cardStyles: React.CSSProperties = isDarkCard ? darkStyles : lightStyles;
 
   return (
-    <div style={cardStyles} className="h-117 flex flex-col items-center rounded-xl mb-7">
+    <div style={cardStyles} className="h-80 sm:h-80 md:h-97 xl:h-117 flex flex-col items-center rounded-xl mb-7">
       <div className="icon justify-items-center p-3 mb-4">
         <Icons Icon={Icon}></Icons>
       </div>

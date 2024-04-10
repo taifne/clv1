@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import Burger from "../Button/index.tsx";
 import { breakpoints } from "../../config/BreakPoints.ts";
-
+const logo =require('../../assets/images/CLT_Logo-W.png'); 
 export default function Nav() {
   const [navHidden, setNavHidden] = useState(false);
   const navRef = useRef<HTMLDivElement>(null);
@@ -33,8 +33,7 @@ export default function Nav() {
     <div ref={navRef} className="md:grid-cols-9 md:grid bg-blue-950  md:h-20  md:items-center md:justify-center fixed md:w-full z-10 flex flex-col-reverse items-start w-full">
       <div className="nav-logo min-w-fit md:col-span-3 text-white md:h-full my-1 order-last flex flex-row justify-between w-full p-3 md:order-1">
         <a className=" hover:cursor-pointer md:flex md:flex-col md:items-center md:justify-center md:w-5/6 ">
-          <p className="text-3xl font-semibold ml-2">CyberLogitec</p>
-          <p className="ml-20 text-xs font-thin ">V I E T N A M</p>
+        <img src={logo} className="h-12 w-28" />
 
         </a>
         <Burger onClick={burgerToggle} navHidden={navHidden} />

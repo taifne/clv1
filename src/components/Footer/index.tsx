@@ -3,7 +3,8 @@ import { FaFacebook, FaYoutube } from "react-icons/fa";
 
 function Footer(): ReactElement {
   return (
-    <footer className="border-y-2 py-10 px-20 flex flex-row justify-evenly w-full">
+    <footer className="border-y-2 py-10 px-20  w-full">
+   
       <div className="container mx-auto flex md:flex-row md:justify-between md:items-center flex-col-reverse justify-center items-center">
         <div className="flex">
           <FaFacebook className="m-3 text-4xl text-blue-500" />

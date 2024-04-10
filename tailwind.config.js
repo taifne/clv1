@@ -14,7 +14,8 @@ module.exports = {
         'custom-text-light': '#ffffff',
         'custom-text-dark': '#17325A'
       }, transitionProperty: {
-        'height': 'height'
+        'height': 'height',
+        'display':'display',
       }
     },
   },

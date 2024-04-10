@@ -12,7 +12,11 @@ const Burger: React.FC<BurgerProps> = ({ onClick, navHidden }) => {
       className="md:hidden block p-2 border-2 border-gray-200 rounded-md hover:bg-gray-200 hover:text-blue-950 w-10 h-10"
       onClick={onClick}
     >
-      <GiHamburgerMenu className={navHidden ? "rotate-0" : "rotate-90"} />
+      <GiHamburgerMenu
+        className={`transform transition-transform duration-300 ${navHidden ? "rotate-0" : "rotate-90"
+          }`}
+      />
+
     </button>
   );
 };
